@@ -45,7 +45,7 @@ I have chosen to duplicate the following layout from the **Twitch** app:
 Here's a video / GIF that demos all of the app's implemented features:
 
 <a href="https://www.loom.com/share/6236f00e2c6c4643862f41469ceb630b">
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/6236f00e2c6c4643862f41469ceb630b-1679025246550-with-play.gif">
+    <img width="800" height="500" style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/6236f00e2c6c4643862f41469ceb630b-1679025246550-with-play.gif">
   </a>
 
 GIF created with **Loom**
