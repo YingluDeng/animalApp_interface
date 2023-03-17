@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/penguinLogo"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_icon" />
+
+    <TextView
+        android:id="@+id/sign_up_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/short_baby"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <!--    email-->
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:text="Email"
+        android:textColor="@color/yellow"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/short_baby"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sign_up_text"
+        />
+
+
+
+    <EditText
+        android:id="@+id/email_box"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/edittext_background"
+        android:hint="  Enter your email..."
+        android:fontFamily="@font/short_baby"
+        android:ems="50"
+        android:inputType="textEmailAddress"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email" />
+
+    <!--    username-->
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:text="Username"
+        android:textColor="@color/yellow"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/short_baby"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email_box"
+        />
+
+    <EditText
+        android:id="@+id/username_box"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="6dp"
+        android:hint="  Create your username..."
+        android:fontFamily="@font/short_baby"
+        android:background="@drawable/edittext_background"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username"
+        />
+
+<!--    password-->
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:text="Password"
+        android:textColor="@color/yellow"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/short_baby"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username_box"
+        />
+
+    <EditText
+        android:id="@+id/password_box"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/edittext_background"
+        android:inputType="textWebPassword"
+        android:hint="  Create your password..."
+        android:fontFamily="@font/short_baby"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password"
+        />
+
+<!--    date of birth-->
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:text="Date of Birth"
+        android:textColor="@color/yellow"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/short_baby"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password_box"
+        />
+
+    <EditText
+        android:id="@+id/dob_box"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/edittext_background"
+        android:ems="50"
+        android:inputType="datetime"
+        android:hint="  day/month/year"
+        android:fontFamily="@font/short_baby"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dob"
+        />
+
+<!--    term text + slide button-->
+    <TextView
+        android:id="@+id/term"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/pink"
+        android:text="By clicking Sign Up, you are indicating that you have read and acknowledge the Terms of Service and Privacy Notice."
+        android:fontFamily="@font/short_baby"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dob_box"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/slide_button"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="240dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dob_box"
+        android:padding="20dp"
+        android:textOff="off"
+        android:textOn="on"
+        android:thumb="@drawable/thumb"
+        app:track="@drawable/track" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/short_baby"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/term" />
+
+    <ImageView
+        android:id="@+id/morePenguin"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button"
+        app:srcCompat="@drawable/more_penguin" />
+
+<!--    <android.support.design.widget.FloatingActionButton-->
+<!--        android:id="@+id/fab"-->
+<!--        android:tooltipText="Send an email" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
