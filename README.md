@@ -38,7 +38,7 @@ The following EXTRA features are implemented:
 
 I have chosen to duplicate the following layout from the **Twitch** app:
 
-<img src='http://example.com/link/to/your/image.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
+<img width="200" height="400" src='https://github.com/YingluDeng/animalApp_interface/blob/master/twitch_app.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
 
 ## Video Demo
 
@@ -61,7 +61,7 @@ Here is my entry for the "Create a second layout, this time for an original, per
 
 It is for an app that **brief description**.
 
-<img src='http://example.com/link/to/your/image.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
+<img width="200" height="400" src='https://github.com/YingluDeng/animalApp_interface/blob/master/penguinWitch.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
 
 ## Notes
 
