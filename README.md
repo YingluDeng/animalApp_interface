@@ -44,9 +44,12 @@ I have chosen to duplicate the following layout from the **App Name Here** app:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+<a href="https://www.loom.com/share/6236f00e2c6c4643862f41469ceb630b">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/6236f00e2c6c4643862f41469ceb630b-1679025127460-with-play.gif">
+  </a>
 
-GIF created with **your chosen GIF tool**
+
+GIF created with **Loom**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
