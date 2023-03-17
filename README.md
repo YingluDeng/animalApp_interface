@@ -36,7 +36,7 @@ The following EXTRA features are implemented:
 
 ## Chosen Screenshot
 
-I have chosen to duplicate the following layout from the **App Name Here** app:
+I have chosen to duplicate the following layout from the **Twitch** app:
 
 <img src='http://example.com/link/to/your/image.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
 
@@ -45,9 +45,8 @@ I have chosen to duplicate the following layout from the **App Name Here** app:
 Here's a video / GIF that demos all of the app's implemented features:
 
 <a href="https://www.loom.com/share/6236f00e2c6c4643862f41469ceb630b">
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/6236f00e2c6c4643862f41469ceb630b-1679025127460-with-play.gif">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/6236f00e2c6c4643862f41469ceb630b-1679025246550-with-play.gif">
   </a>
-
 
 GIF created with **Loom**
 
